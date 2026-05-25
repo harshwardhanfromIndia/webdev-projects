@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device, initial-scale=1.0">
+    <title>Contact | Harshwardhan - Basic HTML website</title>
+    <!--SEO meta tags-->
+    <meta name="description" content="Basic HTML website of Harshwardhan -- Front-End Developer">
+    <meta name="author" content="Harshwardhan Kr. Paswan">
+    <meta name="keywords" content="HTML, Web Development, Roadmap.sh, Front-End">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="logo.png" alt="Logo" width="70">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="articles.html">Articles</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section class="contact">
+            <h1>Write a message for me!</h1>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <br><br>
+                <button type="submit">Send Message</button>
+                <br><br>
+            </form>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>&copy; all rights reserved 2026</p>
+    </footer>
+</body>
+</html>
